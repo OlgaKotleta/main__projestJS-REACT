@@ -3,7 +3,7 @@
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
-  "homepage": "https://olgakotleta.github.io/main__projestJS-REACT/",
+  "homepage": "https://olgakotleta.github.io/main__projestJS-REACT",
   "scripts": {
     "build": "webpack",
     "start": "webpack serve --env MODE=development PORT=3000",
