@@ -1,0 +1,19 @@
+.post{
+    width: 200px;
+    height: 290px;
+    /* background-color: #FFECC5; */
+    /* padding: 10px; */
+    margin: 10px;
+    text-align: center;
+    background: #FCE2AB;
+    align-self: center;
+    justify-self: center;
+
+}
+.cup1{
+width: 160px;
+height: 180px;
+}
+.head__card{
+    padding-top: 5px;
+}
