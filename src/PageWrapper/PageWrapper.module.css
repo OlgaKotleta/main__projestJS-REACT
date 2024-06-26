@@ -46,3 +46,39 @@ position: relative;
 padding-left: 45%;
 color: rgb(255, 255, 255);
 }
+.corzina{
+    width: 45px;
+    height: auto;
+    /* margin-top: 3px; */
+    margin-left: 20px;
+    /* padding-top: 1px; */
+ 
+ 
+}
+.corzina__div{
+    border-top:1px solid white;
+    width: 210px;
+    margin-left: 20px;
+    margin-right: 10px;
+    margin-top: 400px;
+  
+    
+
+}
+.ellips{
+    background-color: #4F5D85;
+    box-shadow: 5px 5px 5px -5px rgba(34, 60, 80, 0.7);
+    width: 35px;
+    height: 35px;
+    border-radius: 50%;
+    padding-left: 10px;
+    padding-top: 5px;
+    margin-left: 75px;
+    margin-top: 12px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 24px;
+    color: white;
+   
+}
+
+.Link{   text-decoration: none;}

@@ -1,7 +1,8 @@
 import s from "./post.module.css"
 import { ChangeEvent, MouseEventHandler, useState, ReactNode } from 'react';
 import { Article } from "types/article";
-import cup1 from './cup1.png'
+import icon from './serdt.png'
+
 
 type PostCardProps = {
     postData: Article;
@@ -16,7 +17,7 @@ export const PostCard = (props: PostCardProps) => {
     return (    <div className={s.post}> <div className={s.head__card}>{postData.head}</div>
     
     <img className={s.cup1} src={postData.img} alt="" />
-    <div >{postData.prise}$</div>
-    <button onClick={onLikeClick}>Понравилось: {like}</button>
+    <div >{postData.prise}руб.</div>
+    <div ><img src={icon} alt="" className={s.icon} onClick={onLikeClick} />{like}</div>
     </div>)
 }

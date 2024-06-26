@@ -96,6 +96,7 @@ color: #3C496C;
    width: 200px;
    height: 50px;
    border:#8197D3;
+   text-decoration: none;
 }
 .button__zakazat:hover{
     background-color:#9aacdb;

@@ -3,6 +3,7 @@ import  s from './PageWrapper.module.css'
 import { Link, NavLink } from 'react-router-dom';
 import classes from 'classnames'
 import { ROUTES } from 'router/routes';
+import corzina from "./corzina.png"
 
 export const PageWrapper = ({ children }: { children: ReactNode }) => {
     return (
@@ -16,7 +17,10 @@ export const PageWrapper = ({ children }: { children: ReactNode }) => {
         <NavLink to={ROUTES.CATALOG} className={({ isActive }) => classes(s.li, { [s.active]: isActive })}>каталог</NavLink>
         <NavLink to={ROUTES.INFO} className={({ isActive }) => classes(s.li, { [s.active]: isActive })}>о нас</NavLink>
         <NavLink to={ROUTES.HELP} className={({ isActive }) => classes(s.li, { [s.active]: isActive })}>помощь</NavLink>
-        </nav> </div>
+        </nav>
+       <Link to={ROUTES.CORZINA} className={s.Link}> <div className={s.corzina__div}><div className={s.ellips}>1</div>
+        <img className={s.corzina} src={corzina} alt="" /></div></Link>
+         </div>
         
         <div >{children}</div>
         <div className={s.footer}><div className={s.footer__text}>© 2024           все права защищены</div></div>

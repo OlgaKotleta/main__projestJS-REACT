@@ -6,6 +6,7 @@ import { ROUTES } from "./routes";
 import { HelpPage } from "pages/helpPage";
 import { CatalogPage } from "pages/catalogPage";
 import { Id } from "pages/idPage";
+import { Corzina } from "pages/corzina";
 
 
 export const router = createHashRouter([
@@ -27,6 +28,10 @@ export const router = createHashRouter([
         {
             path:ROUTES.CATALOG,
              element: <CatalogPage/>,
+        },
+        {
+            path:ROUTES.CORZINA,
+             element: <Corzina/>,
         },
         // {
         //     path: `${ROUTES.ID}/:id`,

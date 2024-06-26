@@ -7,27 +7,27 @@ import img4 from 'post/cup4.png'
 export const moskPosts:Article[]=[{
     id:1,
     like:1,
-    prise:7,
-    head: "water",
+    prise:250,
+    head: 'Лимонад "ЛаймТайм"',
 img:img1
 },
     {
         id:2,
         like:1,
-        prise:7,
-        head: "cup of tea",
+        prise:279,
+        head: 'Мятный чай "ColdTea"',
         img:img2},
         {
             id:3,
             like:3,
-            prise:7,
-            head: "ice coffee",
+            prise:310,
+            head: 'Кофе "ColdCoffee"',
             img:img3},
             {
                 id:4,
                 like:4,
-                prise:7,
-                head: "soda",
+                prise:340,
+                head: ' Каппучино "SevenRed" ',
                 img:img4},
 
 ]

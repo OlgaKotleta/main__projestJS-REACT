@@ -1,5 +1,7 @@
 import { moskPosts } from "model/moskPosts"
 import { PostCard } from "post/postcard"
+import { Link, NavLink } from 'react-router-dom';
+import { ROUTES } from "router/routes";
 
 export const MainPage = () =>{
     return (
@@ -21,7 +23,7 @@ export const MainPage = () =>{
   
     <div className="text__1">Мы понимаем, как иногда хочется насладиться любимым напитком дома. </div>
     <div className="text__2">Удиви своих любимых и насладись ароматным кофем, насыщенным чаем или прохладным домашним лимонадом не выходя из дома!</div>
-    <button className="button__zakazat">заказать</button>
+    <Link to={ROUTES.CORZINA} > <button className="button__zakazat">заказать</button></ Link>
     </div>
     )
 }
