@@ -11,7 +11,7 @@ body {
     font-family: Arial, Helvetica, sans-serif;
     font-size: 24px;
 padding-top: 300px;
-padding-left: 25%;
+padding-left: 20%;
 padding-right: 7%;
     display: grid;
     grid-template-columns: auto auto auto auto;
@@ -101,8 +101,10 @@ color: #3C496C;
 .button__zakazat:hover{
     background-color:#9aacdb;
 }
+.Link{   text-decoration: none;
+color: #3C496C;}
 .T8RmRlxj{
-    width: 260px;
+    width: 310px;
     height: 310px;
     /* background-color: #FFECC5; */
     /* padding: 10px; */
@@ -123,6 +125,33 @@ height: 180px;
 .JE8wZsng{
     width: 30px;
     height: auto;
+    padding-top: 5px;
+}
+.ZTMwvwth{
+    padding-top: 5px;
+    width: 30px;
+    height: auto;
+    /* padding-right: 20px; */
+    margin-right: 10px;
+}
+.cAo3RjKX{
+    font-size: 24px;
+    color: #3C496C;
+    width: 40%;
+}
+.Gpj26540{
+    width: 360px;
+    height: 310px;
+    /* background-color: #FFECC5; */
+    /* padding: 10px; */
+    margin: 10px;
+    text-align: center;
+    background: #FCE2AB;
+    align-self: center;
+    justify-self: center;
+    color: #3C496C;
+    font-size: 24px;
+
 }
 .dXITZAw1{
     font-size: 28px;
@@ -153,18 +182,51 @@ height: 180px;
    
     color:#3C496C;
     height: 90vh;
+    padding-left: 25%;
+    padding-top: 40px;
 }
 .tdKKo3No{
   
     color:#3C496C;
-    height: 90vh;
+    /* height: 90vh; */
+    width: 40%;
+    
     font-family: Arial, Helvetica, sans-serif;
     font-size: 24px;
-padding-top: 30px;
+padding-top: 50px;
 margin-left: 25%;
 padding-right: 7%;
     display: grid;
     grid-template-columns: auto auto ;
+}
+.o0XWST3X{
+    margin-left: 70%;
+    background-color: #8197D3;
+    font-size: 24px;
+   color: white;
+   margin-bottom: 50px;
+   margin-top: 60px;
+   width: 200px;
+   height: 50px;
+   border:#8197D3;
+   text-decoration: none;
+}
+.o0XWST3X:hover{
+    background-color:#9aacdb;
+}
+.rkMfSaNq{
+    margin-left: 70%;
+
+    font-size: 24px;
+   color:#3C496C;
+
+
+  
+}
+.pTl7Pfx3{
+    padding-top: 50px;
+    margin-left: 40%;
+    height: 90vh;
 }
 .ENVkcDO1{
     width:250px;
