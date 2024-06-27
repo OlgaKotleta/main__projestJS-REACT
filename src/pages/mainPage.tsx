@@ -4,6 +4,12 @@ import { Link, NavLink } from 'react-router-dom';
 import { ROUTES } from "router/routes";
 
 export const MainPage = () =>{
+    const startIndex = 0; // начальный индекс
+const endIndex = 4; // конечный индекс (не включая)
+
+// const sliceddPosts = moskPosts[1]
+
+const slicedPosts = moskPosts.slice(startIndex, endIndex);
     return (
         <div>
             
@@ -12,18 +18,21 @@ export const MainPage = () =>{
             fill='%238197D3'/%3E%3C/svg%3E" alt="" /> 
             <span className='text text-3'>Take it</span>
             </div>
-
             <p className='text_novinki'>ГОРЯЧИЕ НОВИНКИ</p>
             <div className='header_bottom'></div>
             <div className='new'>
-            {moskPosts.map((article, index) => (
-        <PostCard postData={article} key={index} />
-      ))}
+     
+
+
+{slicedPosts.map((article, index) => (
+  <PostCard postData={article} key={index} />
+))}
+
     </div>
   
     <div className="text__1">Мы понимаем, как иногда хочется насладиться любимым напитком дома. </div>
     <div className="text__2">Удиви своих любимых и насладись ароматным кофем, насыщенным чаем или прохладным домашним лимонадом не выходя из дома!</div>
-    <Link to={ROUTES.CORZINA} > <button className="button__zakazat">заказать</button></ Link>
+    <Link className="Link" to={ROUTES.CORZINA} > <button className="button__zakazat">заказать</button></ Link>
     </div>
     )
 }

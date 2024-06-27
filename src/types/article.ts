@@ -5,5 +5,7 @@ export type Article ={
     like:number,
     prise:number,
     head: string,
-    img:string
+    img:string,
+    corzina:boolean,
+    content:string
     }

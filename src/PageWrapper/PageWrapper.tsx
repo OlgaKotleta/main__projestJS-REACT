@@ -22,7 +22,7 @@ export const PageWrapper = ({ children }: { children: ReactNode }) => {
         <NavLink to={ROUTES.INFO} className={({ isActive }) => classes(s.li, { [s.active]: isActive })}>о нас</NavLink>
         <NavLink to={ROUTES.HELP} className={({ isActive }) => classes(s.li, { [s.active]: isActive })}>помощь</NavLink>
         </nav>
-       <Link to={ROUTES.CORZINA} className={s.Link}> <div className={s.corzina__div}><div className={s.ellips}>1</div>
+       <Link to={ROUTES.CORZINA} className={s.Link}> <div className={s.corzina__div}><div className={s.ellips}>2</div>
         <img className={s.corzina} src={corzina} alt="" /></div></Link>
          </div>
         

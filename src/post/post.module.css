@@ -1,5 +1,5 @@
 .post{
-    width: 260px;
+    width: 310px;
     height: 310px;
     /* background-color: #FFECC5; */
     /* padding: 10px; */
@@ -20,4 +20,31 @@ height: 180px;
 .icon{
     width: 30px;
     height: auto;
+    padding-top: 5px;
+}
+.icon1{
+    padding-top: 5px;
+    width: 30px;
+    height: auto;
+    /* padding-right: 20px; */
+    margin-right: 10px;
+}
+.content{
+    font-size: 24px;
+    color: #3C496C;
+    width: 40%;
+}
+.postar{
+    width: 360px;
+    height: 310px;
+    /* background-color: #FFECC5; */
+    /* padding: 10px; */
+    margin: 10px;
+    text-align: center;
+    background: #FCE2AB;
+    align-self: center;
+    justify-self: center;
+    color: #3C496C;
+    font-size: 24px;
+
 }
